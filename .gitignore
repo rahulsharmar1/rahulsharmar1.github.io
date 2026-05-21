@@ -1,0 +1,14 @@
+# Local development
+__pycache__/
+*.py[cod]
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
