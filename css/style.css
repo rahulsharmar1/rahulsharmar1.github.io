@@ -11,7 +11,7 @@
     --accent-color: #6d28d9;     /* Deep Security Purple */
     --accent-hover: #5b21b6;     /* Dark Purple Hover */
     --border-color: #ddd6fe;     /* Pastel Lavender Border */
-    --logo-hover-fill-color: #ff0000; /* Dynamic Logo Fill on Hover */
+    --logo-hover-fill-color: #008F11; /* Dynamic Logo Fill on Hover */ /* Cyberpunk Traditional Green Accent */
 
     /* Typography & Layout Spacing */
     --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
@@ -107,6 +107,15 @@ a {
 .right-content-area,
 .hero-header {
   display: contents; /* Dissolves wrappers safely to respect outer Grid areas */
+}
+
+/* --- Logo Area Styles (Mobile) --- */
+.logo-area .hero-logo #R path, .logo-area .hero-logo #S path{
+  color: currentColor; /* Inherits the current text color for dynamic theming */
+}
+
+.logo-area .hero-logo #_ path{
+  color: var(--accent-color);
 }
 
 /* --- Navigation Links Styles (Mobile) --- */
@@ -299,6 +308,17 @@ a {
 .logo-area a:focus-visible .hero-logo {
   /* The SVG path simply changes color in place without moving */
   fill: var(--logo-hover-fill-color); /* Dynamic color change on hover/focus */
+}
+
+.logo-area a:hover .hero-logo #_ path,
+.logo-area a:focus-visible .hero-logo #_ path {
+  animation: terminal-blink 1s step-end infinite;
+}
+
+/* Cursor Blinking Animation */
+@keyframes terminal-blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
 }
 
 /* Keyboard accessibility */
