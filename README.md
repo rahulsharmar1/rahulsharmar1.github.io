@@ -58,16 +58,3 @@ re-running the small script used to build it (hits the public GitHub API for
 python3 -m http.server 8000
 # open http://localhost:8000
 ```
-
-## Deploy (GitHub Pages)
-
-Push these files to the `rahulsharmar1.github.io` repository (root). GitHub Pages
-serves it as-is — no build step.
-
-## To do (yours)
-
-- `assets/Rahul_Sharma_Resume.pdf` is already in place (the Résumé buttons link to it).
-  Replace the file to update it.
-- Optional: add `assets/og-image.png` and point the `og:image` tags at it.
-- Optional: add real start/end dates to the Experience entries in `index.html`
-  (currently labelled "Full-time" / "Internship" since exact dates weren't in the résumé).
