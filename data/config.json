@@ -1,0 +1,68 @@
+{
+  "identity": {
+    "name": "Rahul Sharma",
+    "role": "Backend Software Engineer",
+    "tagline": "I design and deploy secure, scalable REST APIs and Conversational AI systems.",
+    "positioning": "Backend engineer with 2+ years in Python and Django — secure, scalable REST APIs, 50+ Conversational AI deployments, Docker containerization, and OWASP-aligned security.",
+    "location": "Jaipur, India",
+    "email": "rahulsharmar019@gmail.com",
+    "github": "https://github.com/rahulsharmar1",
+    "githubUser": "rahulsharmar1",
+    "linkedin": "https://www.linkedin.com/in/rahulsharmar1/",
+    "twitter": "https://twitter.com/rahulwarlock007",
+    "resume": "assets/Rahul_Sharma_Resume.pdf"
+  },
+  "about": [
+    "I build backend systems that power real-world products, with a strong focus on reliability, security, and performance. My path into engineering started with a curiosity about how systems work — and how they break. Early exposure to cybersecurity and Vulnerability Assessment & Penetration Testing shaped a security-first mindset that still guides how I design software.",
+    "At <strong>Cogno AI</strong> I worked as a Python / Django developer, contributing to the customization and deployment of 50+ cross-platform Conversational AI bots across Web, Android, and WhatsApp — building client-specific workflows, API integrations, and backend logic for startups, Indian financial institutions, and enterprise clients across the MENA region and Saudi Arabia.",
+    "I enjoy work where backend engineering directly improves user experience and business outcomes: hardening APIs, stabilizing deployments, and shipping systems that are functional, resilient, and production-ready."
+  ],
+  "experience": [
+    {
+      "company": "Cogno AI",
+      "role": "Python / Django Developer",
+      "period": "1 yr 8 mos",
+      "summary": "Customized and deployed 50+ cross-platform Conversational AI bots across Web, Android, and WhatsApp for startups, Indian financial institutions, and enterprise clients across the MENA region and Saudi Arabia.",
+      "highlights": [
+        "Engineered real-time backend workflows and REST API integrations for client-specific bot logic.",
+        "Hardened systems with OWASP-aligned controls — input validation and secure session handling.",
+        "Collaborated with product teams to troubleshoot production issues and improve deployment stability.",
+        "Built reusable components enabling faster onboarding of diverse clients."
+      ],
+      "stack": ["Python", "Django", "REST APIs", "PostgreSQL", "OWASP"]
+    }
+  ],
+  "techStack": {
+    "Backend": ["Python", "Django", "Django REST Framework", "REST APIs", "Gunicorn"],
+    "Databases": ["PostgreSQL", "SQLite"],
+    "Security": ["OWASP Top 10", "VAPT", "JWT Auth", "Input Validation"],
+    "DevOps & Tools": ["Git", "WhiteNoise", "Shell", "drf-spectacular", "django-filter"],
+    "Foundations": ["C", "Data Structures", "HTML / CSS / JS"]
+  },
+  "certifications": ["eJPT", "MTA", "INE Cloud Fundamentals", "OWASP Top 10", "VAPT"],
+  "education": {
+    "degree": "B.Tech, Computer Science",
+    "school": "JECRC University"
+  },
+  "featured": ["taskmanager-api", "rahulsharmar1.github.io", "TicTacToe"],
+  "projectMeta": {
+    "taskmanager-api": {
+      "title": "Task Manager REST API",
+      "blurb": "A production-structured task-management REST API built with Django and Django REST Framework. Ships a custom user model, JWT authentication, django-filter querying, and auto-generated OpenAPI docs — organised into tasks/users apps with split local & production settings and a Gunicorn + WhiteNoise deployment setup.",
+      "highlights": ["Custom user model", "JWT auth (Simple JWT)", "Filtering via django-filter", "OpenAPI docs (drf-spectacular)", "Split local / production settings", "Gunicorn + WhiteNoise deploy"],
+      "category": "Backend"
+    },
+    "rahulsharmar1.github.io": {
+      "title": "Developer Portfolio — v1",
+      "blurb": "The first iteration of my portfolio: a performance-focused single-page site engineered around the IntersectionObserver API for scroll-spy, a PerformanceObserver for Core Web Vitals telemetry, a mobile-first CSS grid, and a scoped CSS-variable design system.",
+      "highlights": ["IntersectionObserver scroll-spy", "Core Web Vitals telemetry", "Mobile-first CSS grid", "Scoped CSS-variable system"],
+      "category": "Frontend"
+    },
+    "TicTacToe": {
+      "title": "Tic Tac Toe — C",
+      "blurb": "A command-line Tic Tac Toe game written in C, cleanly decomposed into functions for board rendering, move marking, and win detection. An early project grounding in core algorithms, control flow, and compilation with MinGW GCC.",
+      "highlights": ["Written in C", "Board render & win-detection logic", "Clean function decomposition", "Compiled with MinGW GCC"],
+      "category": "Foundations"
+    }
+  }
+}

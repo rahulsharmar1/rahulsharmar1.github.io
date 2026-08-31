@@ -1,3 +1,6 @@
+# AI Helper
+.claude/
+
 # Local development
 __pycache__/
 *.py[cod]
