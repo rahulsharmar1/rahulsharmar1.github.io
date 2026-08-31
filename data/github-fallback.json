@@ -1,0 +1,119 @@
+{
+  "generated": "2026-08-10",
+  "user": {
+    "login": "rahulsharmar1",
+    "name": "Rahul Sharma",
+    "bio": "26 | Backend Developer",
+    "location": "India",
+    "avatar_url": "https://avatars.githubusercontent.com/u/43758041?v=4",
+    "html_url": "https://github.com/rahulsharmar1",
+    "public_repos": 4,
+    "followers": 5,
+    "blog": "rahulsharmar1.github.io"
+  },
+  "repos": [
+    {
+      "name": "rahulsharmar1.github.io",
+      "full_name": "rahulsharmar1/rahulsharmar1.github.io",
+      "description": null,
+      "html_url": "https://github.com/rahulsharmar1/rahulsharmar1.github.io",
+      "homepage": "https://rahulsharmar1.github.io/",
+      "language": "CSS",
+      "topics": [
+        "html-css-javascript",
+        "portfolio-website"
+      ],
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "watchers_count": 1,
+      "open_issues_count": 0,
+      "created_at": "2022-03-07T06:58:00Z",
+      "updated_at": "2026-06-27T05:27:33Z",
+      "pushed_at": "2026-06-26T16:09:37Z",
+      "size": 2012,
+      "default_branch": "main",
+      "languages": {
+        "CSS": 10285,
+        "HTML": 9730,
+        "JavaScript": 6113
+      },
+      "readme": "# \ud83d\udcbb Rahul Sharma | Performance-Optimized Developer Portfolio\n\n[\ud83d\udd17 Live Demo](https://rahulsharmar1.github.io) | [\ud83d\udcc1 Source Code](https://github.com/rahulsharmar1/rahulsharmar1.github.io)\n\nWelcome to my digital professional showcase. This repository contains the source code for my fully functional, high-performance portfolio website.\n\n\ud83d\ude80 **Project Goal:** To create a single-page application (SPA) that not only displays my professional profile and work history but also functions as a technical demonstration of modern web architecture, performance optimization, and security best practices.\n\n### \u2728 Key Architectural Highlights\n\nThis project was engineered with senior-level best practices in mind, moving beyond simple functionality to focus on *developer experience (DX)* and *user experience (UX)*.\n\n*   **Performance-Driven Interactivity:** Implemented the **`IntersectionObserver` API** for a seamless ScrollSpy effect, ensuring minimal overhead compared to traditional scroll event listeners.\n*   **Client-Side Telemetry:** Integrated a **`PerformanceObserver`** to track core web vitals (like FCP), demonstrating a deep understanding of Core Web Vitals and user perceived speed.\n*   **State Machine Control:** Utilized a proprietary `isProgrammaticScroll` flag to prevent the ScrollSpy from triggering on internal anchor link clicks, solving a complex state management bug.\n*   **Security Integrity Monitor (VAPT Sentry):** Included a foundational console audit script that checks for basic security risks (e.g., unencrypted transport, cross-origin frame detection), reflecting a security-first mindset.\n*   **Mobile-First Grid System:** Designed using a true **Mobile-First** approach with a dedicated `grid-template-areas` layout for flexible responsiveness at all breakpoints.\n*   **Clean State Management:** Defined a robust, scoped CSS variable system (`:root`) to ensure maintainability and consistency across the entire design system.\n\n### \ud83d\udcc1 Technology Stack\n\n| Category | Technologies | Purpose |\n| :--- | :--- | :--- |\n| **Structure** | HTML5, Semantic Markup | Ensures maximum accessibility (A11y) and SEO compliance. |\n| **Presentation** | CSS3, Grid Layout, CSS Variables | Enables scalable, modular, and high-performance styling. |\n| **Interactivity** | Vanilla JavaScript, `Observer` APIs | Provides performance-critical, vanilla JS interactions without external libraries. |\n| **Development** | Git, GitHub Pages | Version control and zero-configuration hosting. |\n\n### \ud83d\udcda Features Breakdown\n\n*   **Adaptive Layout:** The site automatically transitions from a stacked, mobile-friendly layout to a fixed, sticky, two-column layout on desktop viewports.\n*   **Dynamic Navigation:** The main navigation links update state (`active` class) in real-time based on the user's scroll position.\n*   **Social Proof:** Integrated multiple social links (LinkedIn, GitHub, X, etc.) with ARIA attributes for maximum screen reader compatibility.\n\n### \ud83d\ude80 How to Run Locally\n\n1.  **Clone the Repository:**\n    ```bash\n    git clone https://github.com/rahulsharmar1/rahulsharmar1.github.io.git\n    cd rahulsharmar1.github.io\n    ```\n2. **Launch a Local Server (Recommended):**\nTo test API network requests dynamically without encountering browser CORS protocol blocks, spin up a lightweight local development server:\n   ```bash\n   # If you have Python installed\n   python3 -m http.server 8000\n   ```\n\n3. **View the Site:**\n   Open `http://localhost:8000` in your preferred browser. Alternatively, for simple static viewing, you can open `index.html` directly.\n\n### \ud83c\udfaf Future Roadmap\n\nWhile the site is currently production-ready, upcoming iterations will focus on transitioning from static elements to a highly dynamic, responsive, and fully accessible user experience:\n\n#### \ud83d\udcc2 Dynamic Data & Project Showcase\n- **GitHub API Integration:** Transition from hardcoded project placeholders to dynamic, real-time repository fetching via the GitHub REST API.\n- **Automated UI Card Generation:** Architect responsive project cards that auto-populate metadata directly from GitHub (e.g., repository names, descriptions, star counts, and language stats).\n- **Client-Side Tag Filtering:** Implement instantaneous, browser-based project filtering leveraging GitHub repository topic tags (e.g., `[Backend]`, `[VAPT]`).\n\n#### \ud83c\udfa8 Advanced UI/UX Enhancements\n- **System-Aware Theme Toggle:** Engineer a dark/light mode toggle switch (`\u2600\ufe0f`/`\ud83c\udf19`) positioned in the top-right header, utilizing JavaScript `localStorage` for persistent user preferences.\n- **Optimized Theme Transitions:** Integrate fluid, full-page CSS transitions on theme switches that automatically adapt to the user's native OS theme preference (`prefers-color-scheme`).\n- **Contextual Explanatory Modals:** Design accessible, interactive lightboxes to serve on-screen definitions for specialized technical terminology (e.g., \"RESTful API\", \"ORMs\") without breaking user context.\n\n#### \u2709\ufe0f User Engagement & Form Security\n- **Asynchronous Contact Section:** Deploy a dedicated communication channel featuring automated client-side JavaScript validation.\n- **Accessible Error Handling:** Build real-time, robust input validation and error feedback loops to guarantee structural integrity (e.g., email syntax, field completion) before data submission.\n\n---\n*Created with a focus on performance, accessibility, and secure architecture.*\n**\u00a9 2026 Rahul Sharma**\n",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "rahulsharmar1",
+      "full_name": "rahulsharmar1/rahulsharmar1",
+      "description": "Config files for my GitHub profile.",
+      "html_url": "https://github.com/rahulsharmar1/rahulsharmar1",
+      "homepage": "https://github.com/rahulsharmar1",
+      "language": null,
+      "topics": [
+        "config",
+        "github-config"
+      ],
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "watchers_count": 1,
+      "open_issues_count": 0,
+      "created_at": "2022-12-10T10:12:31Z",
+      "updated_at": "2026-05-12T10:54:34Z",
+      "pushed_at": "2026-05-12T10:54:31Z",
+      "size": 3,
+      "default_branch": "main",
+      "languages": {},
+      "readme": "# \ud83d\udc4b Rahul Sharma | Backend Developer\n\n\ud83d\udceb How to reach me [Email](mailto:rahulsharmar019@gmail.com) | [LinkedIn](https://www.linkedin.com/in/rahulsharmar1/) | [Twitter](https://twitter.com/rahulwarlock007)\n\n**\u2728 Backend Developer committed to building resilient, scalable, and secure intelligence-driven applications.**\n\n---\n\n### \ud83e\udde0 Core Competencies\n\nI specialize in the full lifecycle development of high-volume, cross-platform backend systems using Python and Django. My focus areas include:\n\n- \ud83d\udee1\ufe0f **Scalability & Security:** Implementing OWASP best practices, granular input validation, and secure authentication layers.\n- \ud83e\udd16 **Conversational AI:** Architecting and deploying multi-platform bots (Web, WhatsApp, Android).\n- \ud83c\udf10 **API Development:** Designing robust, RESTful APIs that handle real-time, high-volume data processing.\n- \ud83d\udee0\ufe0f **Frameworks:** Python, Django, Django Rest Framework (DRF), PostgreSQL.\n\n---\n\n### \ud83d\udcbc Professional Experience\n\nAt **Cogno AI**, I spent 1 year and 8 months developing and deploying 50+ cross-platform Conversational AI bots. My contributions centered on engineering real-time backend workflows, hardening system security, and enabling reusability for diverse clients (e.g., financial institutions, MENA).\n\n---\n\n### \ud83d\udcc2 Featured Projects\n\n**\ud83d\ude80 Task Manager REST API**\n\n- **Description:** A production-ready, RESTful backend demonstrating mastery of CRUD operations, API design, and data persistence.\n- **Tech Stack:** Python, Django, PostgreSQL/SQLite, Django Rest Framework.\n- **Link:** [https://github.com/rahulsharmar1/taskmanager-api](https://github.com/rahulsharmar1/taskmanager-api)\n\n---\n\n### \ud83d\udcda Skills & Education\n\n**\ud83d\udcbb Technical Stack:** Python, Django, DRF, REST APIs, SQL.  \n**\ud83d\udd12 Security & Certifications:** OWASP Top 10, VAPT, MTA, eJPT, INE Cloud Fundamentals.  \n**\ud83c\udf93 Education:** B.Tech in Computer Science | JECRC University.\n\n---\n\n*Designed and maintained by @rahulsharmar1. Always seeking opportunities to build robust, intelligent backend solutions.*\n  \n<!---\nrahulsharmar1/rahulsharmar1 is a \u2728 special \u2728 repository because its `README.md` (this file) appears on your GitHub profile.\nYou can click the Preview link to take a look at your changes.\n--->\n",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "taskmanager-api",
+      "full_name": "rahulsharmar1/taskmanager-api",
+      "description": null,
+      "html_url": "https://github.com/rahulsharmar1/taskmanager-api",
+      "homepage": null,
+      "language": "Python",
+      "topics": [],
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "watchers_count": 1,
+      "open_issues_count": 0,
+      "created_at": "2026-05-03T15:16:36Z",
+      "updated_at": "2026-05-11T21:11:31Z",
+      "pushed_at": "2026-05-11T21:11:26Z",
+      "size": 33,
+      "default_branch": "main",
+      "languages": {
+        "Python": 30693,
+        "Shell": 462
+      },
+      "readme": "# Task Manager REST API\n\nA production-structured REST API for managing personal tasks. Built with Django and Django REST Framework, following real-world backend architecture patterns.\n\n## Tech Stack\n\n| Technology | Version | Role |\n|---|---|---|\n| Python | 3.12.10 | Runtime |\n| Django | 5.2.13 | Web framework |\n| Django REST Framework | 3.15.2 | API layer |\n| Simple JWT | latest | Authentication |\n| django-filter | latest | Filtering |\n| drf-spectacular | latest | API documentation |\n| SQLite | \u2014 | Local development database |\n| PostgreSQL | \u2014 | Production database |\n| Gunicorn | latest | Production WSGI server |\n| WhiteNoise | latest | Static file serving |\n\n## Project Structure\n\n```text\ntaskmanager/\n\u251c\u2500\u2500 apps/\n\u2502   \u251c\u2500\u2500 tasks/          # Task model, views, serializers, services, tests\n\u2502   \u2514\u2500\u2500 users/          # Custom User model\n\u251c\u2500\u2500 config/\n\u2502   \u251c\u2500\u2500 settings/\n\u2502   \u2502   \u251c\u2500\u2500 base.py     # Shared settings\n\u2502   \u2502   \u251c\u2500\u2500 local.py    # Development settings\n\u2502   \u2502   \u2514\u2500\u2500 production.py  # Production settings\n\u2502   \u251c\u2500\u2500 urls.py\n\u2502   \u2514\u2500\u2500 wsgi.py\n\u251c\u2500\u2500 .env                # Environment variables (NOT in Git)\n\u251c\u2500\u2500 manage.py\n\u2514\u2500\u2500 requirements.txt\n```\n\n## Local Setup\n\n### Prerequisites\n\n- Python 3.12.10\n- Git\n\n### 1. Clone the Repository\n\n```cmd\ngit clone https://github.com/rahulsharmar1/taskmanager-api.git\ncd taskmanager-api\n```\n\n### 2. Create and Activate Virtual Environment\n\n```cmd\npython3.12 -m venv venv\nvenv\\Scripts\\Activate\n```\n\n### 3. Install Dependencies\n\n```cmd\npip install -r requirements.txt\n```\n\n### 4. Configure Environment Variables\n\nCopy the example and fill in your values:\n\n```cmd\ncopy .env.example .env\n```\n\nEdit `.env`:\n\n```env\nSECRET_KEY=your-secret-key-here\nDEBUG=True\nALLOWED_HOSTS=127.0.0.1,localhost\n```\n\nGenerate a secret key:\n\n```cmd\npython -c \"from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())\"\n```\n\n### 5. Run Migrations\n\n```cmd\npython manage.py migrate\n```\n\n### 6. Create a Superuser\n\n```cmd\npython manage.py createsuperuser\n```\n\n### 7. Run the Development Server\n\n```cmd\npython manage.py runserver\n```\n\nAPI is available at `http://127.0.0.1:8000/`\n\n## API Documentation\n\nInteractive documentation is available when the server is running:\n\n| Interface | URL |\n|---|---|\n| Swagger UI | `http://127.0.0.1:8000/api/schema/swagger-ui/` |\n| ReDoc | `http://127.0.0.1:8000/api/schema/redoc/` |\n| Raw Schema | `http://127.0.0.1:8000/api/schema/` |\n\n## Authentication\n\nThis API uses JWT (JSON Web Tokens).\n\n### Obtain Tokens\n\n```bash\nPOST /api/auth/token/\nContent-Type: application/json\n\n{\n    \"username\": \"your_username\",\n    \"password\": \"your_password\"\n}\n```\n\n**Response:**\n```json\n{\n    \"access\": \"eyJ...\",\n    \"refresh\": \"eyJ...\"\n}\n```\n\n### Use the Access Token\n\nInclude the token in every request:\n`Authorization: Bearer eyJ...`\n\n### Refresh the Access Token\n\n```bash\nPOST /api/auth/token/refresh/\nContent-Type: application/json\n\n{\n    \"refresh\": \"eyJ...\"\n}\n```\n\n## API Endpoints\n\nAll endpoints require authentication. Tasks are scoped to the authenticated user.\n\n| Method | Endpoint | Description |\n|---|---|---|\n| `GET` | `/api/tasks/` | List all tasks (paginated) |\n| `POST` | `/api/tasks/` | Create a new task |\n| `GET` | `/api/tasks/{id}/` | Retrieve a task |\n| `PUT` | `/api/tasks/{id}/` | Full update a task |\n| `PATCH` | `/api/tasks/{id}/` | Partial update a task |\n| `DELETE` | `/api/tasks/{id}/` | Delete a task |\n\n### Query Parameters\n\n| Parameter | Example | Description |\n|---|---|---|\n| `status` | `?status=todo` | Filter by status |\n| `due_date` | `?due_date=2025-12-31` | Filter by exact due date |\n| `ordering` | `?ordering=-created_at` | Sort results |\n| `page` | `?page=2` | Page number |\n| `page_size` | `?page_size=5` | Results per page (max 100) |\n\n### Task Object\n\n```json\n{\n    \"id\": 1,\n    \"owner\": 1,\n    \"title\": \"Buy groceries\",\n    \"description\": \"Milk, eggs, bread\",\n    \"status\": \"todo\",\n    \"due_date\": \"2025-12-01\",\n    \"created_at\": \"2025-10-01T09:00:00Z\",\n    \"updated_at\": \"2025-10-01T09:00:00Z\"\n}\n```\n\n**Status values:** `todo` | `in_progress` | `done`\n\n## Running Tests\n\n```cmd\npython manage.py test apps.tasks.tests --verbosity=2\n```\n\n## API Access Points\n\nThis project supports two primary environments:\n\n### Local Development Environment\nWhen running `python manage.py runserver`, the API is accessible at:\n`http://127.0.0.1:8000/`\n\n### Live Production Environment\nThe live, deployed API endpoint is:\n`https://taskmanager-api-php8.onrender.com/`\n\n\n## Deployment\n\nLive API: `https://taskmanager-api-php8.onrender.com`\n\n\n## Git Workflow\n\nThis project follows a feature-branch workflow with conventional commits.\n```text\nmain \u2190 merge via PR after review\n\u2514\u2500\u2500 feature/<iteration-topic>\n```\nCommit format: `<type>(<scope>): <message>`",
+      "archived": false,
+      "fork": false
+    },
+    {
+      "name": "TicTacToe",
+      "full_name": "rahulsharmar1/TicTacToe",
+      "description": "Tic Tac Toe Game In C",
+      "html_url": "https://github.com/rahulsharmar1/TicTacToe",
+      "homepage": null,
+      "language": "C",
+      "topics": [],
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "watchers_count": 1,
+      "open_issues_count": 0,
+      "created_at": "2020-05-05T06:33:23Z",
+      "updated_at": "2026-05-09T19:30:02Z",
+      "pushed_at": "2022-04-14T20:08:09Z",
+      "size": 6,
+      "default_branch": "master",
+      "languages": {
+        "C": 6222
+      },
+      "readme": "# TicTacToe In C\n\nIt is a game developed in C language.\n\n#### It has 4 Functions namely :-\n\n```c\nint showboard(char a[]);              //For Showing Board Of TicTacToe\nint mark(int m, char a[], char p);    //For Marking On The Board\nint checkwin(char a[]);               //To Check Which Player Is Winning\nint main();                           //The Main Fuction\n```\n###### It is compiled in MinGW GCC Compiler.\n\nYou can download and compile it.\n\n\n> Developed by @rahulsharmar1\n",
+      "archived": false,
+      "fork": false
+    }
+  ]
+}
